@@ -1,4 +1,4 @@
-# ISS_Pass_Times
+# ISS Pass Times
 
 *Project Setup*
 
