@@ -1,0 +1,23 @@
+<h1>ISS Pass Times</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Duration</th>
+      <th>RiseTime</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @iss_pass_times.each do |ipt| %>
+      <tr>
+        <td><%= ipt.duration %></td>
+        <td><%= ipt.risetime %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+</br>
+
+<%= link_to 'Back', locations_path %>
